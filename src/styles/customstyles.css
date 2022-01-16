@@ -1,0 +1,153 @@
+/* .border {
+  height: 50px;
+  width: 120px;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 4px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.border:before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.border:after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.border:hover:before {
+  height: 50px;
+  width: 120px;
+  border: 8px solid black;
+  border-right: none;
+  border-bottom: none;
+  transition: height 0.3s linear, width 0.3s linear 0.3s;
+}
+
+.border:hover:after {
+  height: 50px;
+  width: 120px;
+  border: 8px solid black;
+  border-left: none;
+  border-top: none;
+  transition: height 0.3s linear, width 0.3s linear 0.3s;
+} */
+
+/** Gear Icon animation **/
+
+.gearRotate {
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/** End Gear Icon animation **/
+
+/** Hover links animation **/
+.hover-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(107, 107, 107);
+  transition: width 0.5s;
+}
+
+.hover-link:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+
+.footer-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f7fafc;
+  transition: width 0.5s;
+}
+
+.footer-link:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+
+/** End Hover links animation **/
+
+/** Overlay Image animation **/
+
+.image_main {
+  position: relative;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-radius: 8px;
+}
+
+.image_overlay_blur {
+  backdrop-filter: blur(5px);
+}
+
+/* .image_overlay_blur {
+  background: #718096;
+} */
+
+.image_overlay:hover {
+  opacity: 1;
+}
+
+.image_overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image_overlay:hover > * {
+  transform: translateY(0px);
+}
+
+/** End Overlay Image animation **/
