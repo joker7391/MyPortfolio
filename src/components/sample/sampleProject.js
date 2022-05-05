@@ -17,10 +17,10 @@ function SampleProject() {
         </div>
         <Zoom>
           <h1 className="text-4xl font-bold text-center text-gray-600">
-            My React Projects
+            React Projects
           </h1>
           <p className="py-4 text-xl text-center">
-            Here are my projects. I've worked using React.
+            I've worked using React.
           </p>
         </Zoom>
         <div className="grid grid-flow-col grid-rows-2">

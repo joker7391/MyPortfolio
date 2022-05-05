@@ -17,15 +17,8 @@ function BoxThree() {
                 <span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
                     Git Bash Terminal
                   </span>
-                <span className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Composer
-                  </span>
-                <span className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Codepen
-                  </span>
-                <span className="inline-block px-3 py-1 mt-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Node Package Manager
-                  </span>
+                
+                
             </div>
         </div>
     )

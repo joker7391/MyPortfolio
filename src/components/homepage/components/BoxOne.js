@@ -11,21 +11,12 @@ function BoxOne() {
                 <span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
                     React JS
                   </span>
-                <span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Vue JS
-                  </span>
-                <span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Redux
-                  </span>
+               
+             
                 <span className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
                     React Native
                   </span>
-                <span className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Bootstrap 4
-                  </span>
-                <span className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
-                    Material UI
-                  </span>
+               
                 <span className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-400 rounded-full">
                     Tailwind CSS
                   </span>

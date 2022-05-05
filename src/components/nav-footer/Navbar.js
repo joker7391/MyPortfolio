@@ -15,24 +15,14 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-gray-600">
+    <div className="bg-black">
       <div className="flex justify-between max-w-6xl p-4 mx-auto text-white">
         <a href="/">
           <div className="flex flex-row">
-            <svg
-              className="w-8 h-8"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
-            </svg>
+        
             <h1 className="px-1 py-1 font-semibold uppercase">
               <Wave
-                text="My Portfolio"
+                text="DJ"
                 effect="verticalFadeIn"
                 effectDuration={0.5}
                 effectChange={0.1}
@@ -56,15 +46,15 @@ export default function Navbar() {
             </svg>
           </button>
           <Slide top>
-            <div className="hidden md:block">
-              <Link to="/" className="px-2 rounded hover:bg-gray-500">
+            <div className="hidden md:block ">
+              <Link to="/" className="px-2 rounded hover:bg-red-500">
                 Home
             </Link>
-              <Link to="/about" className="px-2 rounded hover:bg-gray-500">
+              <Link to="/about" className="px-2 rounded hover:bg-red-500">
                 About
             </Link>
 
-              <Link to="/projects" className="px-2 rounded hover:bg-gray-500">
+              <Link to="/projects" className="px-2 rounded hover:bg-red-500">
                 Projects
             </Link>
               <Link
@@ -78,29 +68,29 @@ export default function Navbar() {
 
         </div>
       </div>
-      <div className={open ? "flex flex-col md:hidden px-2" : "hidden"}>
+      <div className={open ? "flex flex-col text-center md:hidden px-2" : "hidden"}>
         <Link
           to="/"
-          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-gray-500"
+          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-red-500"
         >
           Home
         </Link>
         <Link
           to="/about"
-          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-gray-500"
+          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-red-500"
         >
           About
         </Link>
 
         <Link
           to="/projects"
-          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-gray-500"
+          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-red-500"
         >
           Projects
         </Link>
         <Link
           to="/project-samples"
-          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-gray-500"
+          className="px-2 py-1 mb-1 text-white rounded hover:text-white hover:bg-red-500"
         >
           React Projects
         </Link>

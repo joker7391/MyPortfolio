@@ -29,10 +29,10 @@ export default function Project() {
                 alt="projects"
               />
               <div className="image_overlay image_overlay_blur">
-                <h1 className="py-8 text-3xl">Pahiram.ph</h1>
+                <h1 className="py-8 text-3xl">TicketNation.ph</h1>
                 <a
-                  href="https://pahiram.ph/"
-                  alt="pahiram"
+                  href="https://ticketnation.ph"
+                  alt="ticketnation"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
