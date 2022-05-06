@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-black">
+    <div className="bg-gray-700">
       <div className="flex justify-between max-w-6xl p-4 mx-auto text-white">
         <a href="/">
           <div className="flex flex-row">

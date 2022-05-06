@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/nav-footer/Navbar";
 import Footer from "../../components/nav-footer/Footer";
-import img1 from "../../images/test.jpg";
+import img1 from "../../images/IMG_2035.jpg";
 import Gear from "../../images/gear.png";
 import Background from "../../images/insert-image-html-2.jpg";
 import { Wave } from "react-animated-text";
@@ -24,7 +24,7 @@ function Home() {
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
-        className="opacity-90"
+        className="h-full bg-black opacity-30"
       >
         <div className="max-w-6xl mx-auto">
           <div className="mb-5 lg:flex lg:justify-between">
@@ -68,10 +68,10 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 p-10 ">
-              <Zoom>
-                <img className="lg:w-full lg:h-full shadow-md rounded-full" src={img1} alt="profile" />
-              </Zoom>
+            <div className="flex w-64 bg-black h-64 bg-cover bg-center-bottom justify-center items-center rounded-full bg-no-repeat border-black border-4 shadow-xl mt-10 pb-10 pl-10"
+            style={{ backgroundImage: `url(${img1})` }}
+            >
+            
             </div>
           </div>
 

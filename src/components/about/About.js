@@ -25,8 +25,10 @@ export default function About() {
           className="mb-5 lg:flex"
         >
           <Fade left>
-            <div className="lg:w-1/3 p-20">
-              <img className="w-full mb-24 rounded-full " src={profile} alt="profile" />
+            <div className="lg:w-1/3 p-20"
+            // style={{ backgroundImage: }}
+            >
+              {/* <img className="w-full mb-24 rounded-full " src={profile} alt="profile" /> */}
             </div>
           </Fade>
           <div className="text-center lg:py-24 lg:px-20 lg:w-2/3 lg:text-left">
